@@ -8,9 +8,9 @@ app.js
 app.ts
 app2.js
 assets
-dist.zip
-dist/
-dist*
+# dist.zip
+# dist/
+# dist*
 gohan.jpg
 node_modules
 session
