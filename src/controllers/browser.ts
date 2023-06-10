@@ -105,8 +105,8 @@ export function folderSession(options: options | CreateConfig) {
     });
   }
 
-  fs.chmodSync(folderMulidevice, '777');
-  fs.chmodSync(folderSession, '777');
+  // fs.chmodSync(folderMulidevice, '777');
+  // fs.chmodSync(folderSession, '777');
 
   options.puppeteerOptions = {
     userDataDir: folderSession,
